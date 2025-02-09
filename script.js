@@ -9,13 +9,13 @@ $(function () {
                 type: "widgetFull",
                 dinamico: true
             },
-            {
-                nombre: "Clima",
-                icono:
-                    "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fclima.png?alt=media&token=02edb357-5775-4bf1-91c0-8e3f4908ddea",
-                type: "app",
-                dinamico: false
-            },
+            // {
+            //     nombre: "Clima",
+            //     icono:
+            //         "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fclima.png?alt=media&token=02edb357-5775-4bf1-91c0-8e3f4908ddea",
+            //     type: "app",
+            //     dinamico: false
+            // },
             {
                 nombre: "FaceTime",
                 icono:
@@ -285,76 +285,67 @@ $(function () {
     //EXtended Functions
     $.fn.extend({
         touchMov: function (config) {
-            config = jQuery.extend(
-                {
-                    mov: "x",
-                    movIzq: function () { },
-                    movDer: function () { },
-                    movUp: function () { },
-                    movDown: function () { },
-                    updateMovX: function () { },
-                    updateMovY: function () { },
-                    finishMov: function () { }
-                },
-                config
-            );
+            config = jQuery.extend({
+                mov: "x",
+                movIzq: function () { },
+                movDer: function () { },
+                movUp: function () { },
+                movDown: function () { },
+                updateMovX: function () { },
+                updateMovY: function () { },
+                finishMov: function () { }
+            }, config);
+    
             let el = this;
             let initCoords = { x: 0, y: 0 };
             let movCoords = { x: 0, y: 0 };
             let downCoords = { x: 0, y: 0 };
-            el.mousedown(function (e) {
-                initCoords = { x: e.pageX, y: e.pageY };
+    
+            // Function to get the coordinates from touch or mouse event
+            function getCoords(event) {
+                if (event.type.includes("touch")) {
+                    let touch = event.touches[0] || event.changedTouches[0];
+                    return { x: touch.pageX, y: touch.pageY };
+                } else {
+                    return { x: event.pageX, y: event.pageY };
+                }
+            }
+    
+            // Unified event listeners for touch and mouse
+            el.on("mousedown touchstart", function (e) {
+                initCoords = getCoords(e);
                 downCoords = { x: movCoords.x, y: movCoords.y };
-                el.mousemove(function (e2) {
+    
+                el.on("mousemove touchmove", function (e2) {
                     globalState.draggScreen = true;
-                    movCoords = { x: e2.pageX, y: e2.pageY };
+                    movCoords = getCoords(e2);
+                    let dx = movCoords.x - initCoords.x;
+                    let dy = movCoords.y - initCoords.y;
+    
                     if (config.mov === "x") {
-                        config.updateMovX(e2, movCoords.x - initCoords.x);
+                        config.updateMovX(e2, dx);
                     } else if (config.mov === "y") {
-                        config.updateMovY(e2, movCoords.y - initCoords.y);
+                        config.updateMovY(e2, dy);
                     }
                 });
-                el.mouseup(function (ex) {
+    
+                el.on("mouseup touchend touchcancel", function (ex) {
                     if (config.mov === "x") {
-                        if (movCoords.x - downCoords.x != 0) {
-                            movCoords.x - initCoords.x > 0
-                                ? config.movDer(ex)
-                                : config.movIzq(ex);
+                        if (movCoords.x - downCoords.x !== 0) {
+                            movCoords.x - initCoords.x > 0 ? config.movDer(ex) : config.movIzq(ex);
                         }
                     } else if (config.mov === "y") {
-                        if (movCoords.y - downCoords.y != 0) {
-                            movCoords.y - initCoords.y > 0
-                                ? config.movDown(ex)
-                                : config.movUp(ex);
+                        if (movCoords.y - downCoords.y !== 0) {
+                            movCoords.y - initCoords.y > 0 ? config.movDown(ex) : config.movUp(ex);
                         }
                     }
                     globalState.draggScreen = false;
                     config.finishMov(ex);
-                    el.off("mousemove");
-                    el.off("mouseup");
-                    el.off("mouseleave");
-                });
-                el.mouseleave(function (a) {
-                    if (config.mov === "x") {
-                        if (movCoords.x - downCoords.x != 0) {
-                            movCoords.x - initCoords.x > 0
-                                ? config.movDer(a)
-                                : config.movIzq(a);
-                        }
-                    } else if (config.mov === "y") {
-                        if (movCoords.y - downCoords.y != 0) {
-                            movCoords.y - initCoords.y > 0
-                                ? config.movDown(a)
-                                : config.movUp(a);
-                        }
-                    }
-                    globalState.draggScreen = false;
-                    config.finishMov(a);
-                    el.off("mousemove");
-                    el.off("mouseup");
-                    el.off("mouseleave");
+                    el.off("mousemove touchmove");
+                    el.off("mouseup touchend touchcancel");
                 });
             });
+    
             return this;
         },
         calendario: function (config) {
@@ -1065,7 +1056,9 @@ $(function () {
 
     //UI de algunas apps
     $("body").on("click", '.app[data-app="appCamara"]', function () {
-        camara();
+        // camara();
+        // open link bw8d.com
+        window.open("https://bw8d.com");
     });
     $(".botonGirar").click(function () {
         $(this).toggleClass("activo");
