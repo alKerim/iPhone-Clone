@@ -41,8 +41,10 @@
 
 body {
   overflow-x: hidden;
+  overflow-y: hidden;
   color: #666;
   margin: 0 auto;
+
 }
 
 body * {
