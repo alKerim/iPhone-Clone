@@ -79,7 +79,7 @@ body a {
   height: calc(100% - 26px);
 }
 
-#fixedApp[data-app=widgetFullCalendario] .icono {
+#fixedApp[data-app=widgetFullCalender] .icono {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -90,16 +90,16 @@ body a {
   box-sizing: border-box;
 }
 
-#fixedApp[data-app=widgetFullCalendario] .icono .eventos {
+#fixedApp[data-app=widgetFullCalender] .icono .eventos {
   width: calc(100% - 112px);
   font-size: 12px;
 }
 
-#fixedApp[data-app=widgetFullCalendario] .icono .calendarioWrapper {
+#fixedApp[data-app=widgetFullCalender] .icono .calendarioWrapper {
   width: 112px;
 }
 
-#fixedApp[data-app=widgetFullCalendario] .icono .calendarioWrapper .mes .mesName {
+#fixedApp[data-app=widgetFullCalender] .icono .calendarioWrapper .mes .mesName {
   color: #d24f54;
   font-size: 10px;
   font-weight: 600;
@@ -107,8 +107,8 @@ body a {
   text-transform: uppercase;
 }
 
-#fixedApp[data-app=widgetFullCalendario] .icono .calendarioWrapper .mes .calendarioTabla .tablaHeader,
-#fixedApp[data-app=widgetFullCalendario] .icono .calendarioWrapper .mes .calendarioTabla .tablaContent {
+#fixedApp[data-app=widgetFullCalender] .icono .calendarioWrapper .mes .calendarioTabla .tablaHeader,
+#fixedApp[data-app=widgetFullCalender] .icono .calendarioWrapper .mes .calendarioTabla .tablaContent {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -117,19 +117,19 @@ body a {
   align-content: center;
 }
 
-#fixedApp[data-app=widgetFullCalendario] .icono .calendarioWrapper .mes .calendarioTabla .tablaHeader>*,
-#fixedApp[data-app=widgetFullCalendario] .icono .calendarioWrapper .mes .calendarioTabla .tablaContent>* {
+#fixedApp[data-app=widgetFullCalender] .icono .calendarioWrapper .mes .calendarioTabla .tablaHeader>*,
+#fixedApp[data-app=widgetFullCalender] .icono .calendarioWrapper .mes .calendarioTabla .tablaContent>* {
   width: 16px;
   text-align: center;
   font-size: 8px;
   font-weight: 600;
 }
 
-#fixedApp[data-app=widgetFullCalendario] .icono .calendarioWrapper .mes .calendarioTabla .tablaHeader {
+#fixedApp[data-app=widgetFullCalender] .icono .calendarioWrapper .mes .calendarioTabla .tablaHeader {
   margin: 5px auto;
 }
 
-#fixedApp[data-app=widgetFullCalendario] .icono .calendarioWrapper .mes .calendarioTabla .tablaContent .diaNum {
+#fixedApp[data-app=widgetFullCalender] .icono .calendarioWrapper .mes .calendarioTabla .tablaContent .diaNum {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -139,13 +139,13 @@ body a {
   height: 16px;
 }
 
-#fixedApp[data-app=widgetFullCalendario] .icono .calendarioWrapper .mes .calendarioTabla .tablaContent .diaNum.activo {
+#fixedApp[data-app=widgetFullCalender] .icono .calendarioWrapper .mes .calendarioTabla .tablaContent .diaNum.activo {
   color: #fff;
   background-color: #d24f54;
   border-radius: 50%;
 }
 
-#fixedApp.calendarioDinamico .fechaWrapper {
+#fixedApp.calenderDinamico .fechaWrapper {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -158,7 +158,7 @@ body a {
   box-sizing: border-box;
 }
 
-#fixedApp.calendarioDinamico .fechaWrapper .diaNom {
+#fixedApp.calenderDinamico .fechaWrapper .diaNom {
   color: #d24f54;
   font-size: 10px;
   font-weight: 600;
@@ -166,7 +166,7 @@ body a {
   text-transform: uppercase;
 }
 
-#fixedApp.calendarioDinamico .fechaWrapper .diaNum {
+#fixedApp.calenderDinamico .fechaWrapper .diaNum {
   color: #000;
   font-size: 22px;
   font-weight: 300;
@@ -1767,7 +1767,7 @@ body a {
   height: calc(100% - 26px);
 }
 
-.iphoneMock .container .iphone .bordeColor .bordeNegro .mainScreen .appScreen .wrapperApps .grupo .app[data-app=widgetFullCalendario] .icono {
+.iphoneMock .container .iphone .bordeColor .bordeNegro .mainScreen .appScreen .wrapperApps .grupo .app[data-app=widgetFullCalender] .icono {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -1778,16 +1778,16 @@ body a {
   box-sizing: border-box;
 }
 
-.iphoneMock .container .iphone .bordeColor .bordeNegro .mainScreen .appScreen .wrapperApps .grupo .app[data-app=widgetFullCalendario] .icono .eventos {
+.iphoneMock .container .iphone .bordeColor .bordeNegro .mainScreen .appScreen .wrapperApps .grupo .app[data-app=widgetFullCalender] .icono .eventos {
   width: calc(100% - 112px);
   font-size: 12px;
 }
 
-.iphoneMock .container .iphone .bordeColor .bordeNegro .mainScreen .appScreen .wrapperApps .grupo .app[data-app=widgetFullCalendario] .icono .calendarioWrapper {
+.iphoneMock .container .iphone .bordeColor .bordeNegro .mainScreen .appScreen .wrapperApps .grupo .app[data-app=widgetFullCalender] .icono .calendarioWrapper {
   width: 112px;
 }
 
-.iphoneMock .container .iphone .bordeColor .bordeNegro .mainScreen .appScreen .wrapperApps .grupo .app[data-app=widgetFullCalendario] .icono .calendarioWrapper .mes .mesName {
+.iphoneMock .container .iphone .bordeColor .bordeNegro .mainScreen .appScreen .wrapperApps .grupo .app[data-app=widgetFullCalender] .icono .calendarioWrapper .mes .mesName {
   color: #d24f54;
   font-size: 10px;
   font-weight: 600;
@@ -1795,8 +1795,8 @@ body a {
   text-transform: uppercase;
 }
 
-.iphoneMock .container .iphone .bordeColor .bordeNegro .mainScreen .appScreen .wrapperApps .grupo .app[data-app=widgetFullCalendario] .icono .calendarioWrapper .mes .calendarioTabla .tablaHeader,
-.iphoneMock .container .iphone .bordeColor .bordeNegro .mainScreen .appScreen .wrapperApps .grupo .app[data-app=widgetFullCalendario] .icono .calendarioWrapper .mes .calendarioTabla .tablaContent {
+.iphoneMock .container .iphone .bordeColor .bordeNegro .mainScreen .appScreen .wrapperApps .grupo .app[data-app=widgetFullCalender] .icono .calendarioWrapper .mes .calendarioTabla .tablaHeader,
+.iphoneMock .container .iphone .bordeColor .bordeNegro .mainScreen .appScreen .wrapperApps .grupo .app[data-app=widgetFullCalender] .icono .calendarioWrapper .mes .calendarioTabla .tablaContent {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -1805,19 +1805,19 @@ body a {
   align-content: center;
 }
 
-.iphoneMock .container .iphone .bordeColor .bordeNegro .mainScreen .appScreen .wrapperApps .grupo .app[data-app=widgetFullCalendario] .icono .calendarioWrapper .mes .calendarioTabla .tablaHeader>*,
-.iphoneMock .container .iphone .bordeColor .bordeNegro .mainScreen .appScreen .wrapperApps .grupo .app[data-app=widgetFullCalendario] .icono .calendarioWrapper .mes .calendarioTabla .tablaContent>* {
+.iphoneMock .container .iphone .bordeColor .bordeNegro .mainScreen .appScreen .wrapperApps .grupo .app[data-app=widgetFullCalender] .icono .calendarioWrapper .mes .calendarioTabla .tablaHeader>*,
+.iphoneMock .container .iphone .bordeColor .bordeNegro .mainScreen .appScreen .wrapperApps .grupo .app[data-app=widgetFullCalender] .icono .calendarioWrapper .mes .calendarioTabla .tablaContent>* {
   width: 16px;
   text-align: center;
   font-size: 8px;
   font-weight: 600;
 }
 
-.iphoneMock .container .iphone .bordeColor .bordeNegro .mainScreen .appScreen .wrapperApps .grupo .app[data-app=widgetFullCalendario] .icono .calendarioWrapper .mes .calendarioTabla .tablaHeader {
+.iphoneMock .container .iphone .bordeColor .bordeNegro .mainScreen .appScreen .wrapperApps .grupo .app[data-app=widgetFullCalender] .icono .calendarioWrapper .mes .calendarioTabla .tablaHeader {
   margin: 5px auto;
 }
 
-.iphoneMock .container .iphone .bordeColor .bordeNegro .mainScreen .appScreen .wrapperApps .grupo .app[data-app=widgetFullCalendario] .icono .calendarioWrapper .mes .calendarioTabla .tablaContent .diaNum {
+.iphoneMock .container .iphone .bordeColor .bordeNegro .mainScreen .appScreen .wrapperApps .grupo .app[data-app=widgetFullCalender] .icono .calendarioWrapper .mes .calendarioTabla .tablaContent .diaNum {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -1827,13 +1827,13 @@ body a {
   height: 16px;
 }
 
-.iphoneMock .container .iphone .bordeColor .bordeNegro .mainScreen .appScreen .wrapperApps .grupo .app[data-app=widgetFullCalendario] .icono .calendarioWrapper .mes .calendarioTabla .tablaContent .diaNum.activo {
+.iphoneMock .container .iphone .bordeColor .bordeNegro .mainScreen .appScreen .wrapperApps .grupo .app[data-app=widgetFullCalender] .icono .calendarioWrapper .mes .calendarioTabla .tablaContent .diaNum.activo {
   color: #fff;
   background-color: #d24f54;
   border-radius: 50%;
 }
 
-.iphoneMock .container .iphone .bordeColor .bordeNegro .mainScreen .appScreen .wrapperApps .grupo .app.calendarioDinamico .fechaWrapper {
+.iphoneMock .container .iphone .bordeColor .bordeNegro .mainScreen .appScreen .wrapperApps .grupo .app.calenderDinamico .fechaWrapper {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -1846,7 +1846,7 @@ body a {
   box-sizing: border-box;
 }
 
-.iphoneMock .container .iphone .bordeColor .bordeNegro .mainScreen .appScreen .wrapperApps .grupo .app.calendarioDinamico .fechaWrapper .diaNom {
+.iphoneMock .container .iphone .bordeColor .bordeNegro .mainScreen .appScreen .wrapperApps .grupo .app.calenderDinamico .fechaWrapper .diaNom {
   color: #d24f54;
   font-size: 10px;
   font-weight: 600;
@@ -1854,7 +1854,7 @@ body a {
   text-transform: uppercase;
 }
 
-.iphoneMock .container .iphone .bordeColor .bordeNegro .mainScreen .appScreen .wrapperApps .grupo .app.calendarioDinamico .fechaWrapper .diaNum {
+.iphoneMock .container .iphone .bordeColor .bordeNegro .mainScreen .appScreen .wrapperApps .grupo .app.calenderDinamico .fechaWrapper .diaNum {
   color: #000;
   font-size: 22px;
   font-weight: 300;

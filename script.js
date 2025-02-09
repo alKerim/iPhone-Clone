@@ -3,7 +3,7 @@ $(function () {
     const globalState = {
         apps: [
             {
-                nombre: "Calendario",
+                nombre: "Calender",
                 icono:
                     "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fcalendario.png?alt=media&token=ae918b56-05c3-40a1-be64-1abcdb291c6f",
                 type: "widgetFull",
@@ -24,7 +24,7 @@ $(function () {
                 dinamico: false
             },
             {
-                nombre: "Calendario",
+                nombre: "Calender",
                 icono:
                     "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fcalendario.png?alt=media&token=ae918b56-05c3-40a1-be64-1abcdb291c6f",
                 type: "app",
@@ -38,43 +38,43 @@ $(function () {
                 dinamico: true
             },
             {
-                nombre: "Fotos",
+                nombre: "Photos",
                 icono:
                     "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Ffotos.png?alt=media&token=86d712fd-aab1-48a3-a6d0-f2b5b7f9a2ab",
                 type: "app",
                 dinamico: false
             },
             {
-                nombre: "Mapas",
+                nombre: "Maps",
                 icono:
                     "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fmaps.png?alt=media&token=309018b2-981a-44fd-bf97-8da765fef711",
                 type: "app",
                 dinamico: false
             },
             {
-                nombre: "Cámara",
+                nombre: "Camera",
                 icono:
                     "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fcamara.png?alt=media&token=bd81cee7-b011-4773-a053-a7cd935e34c3",
                 type: "app",
                 dinamico: false
             },
             {
-                nombre: "Recordatorios",
+                nombre: "Reminders",
                 icono:
                     "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Frecordatorios.png?alt=media&token=2dbccbc3-374b-4eed-aa00-68db99217b7d",
                 type: "app",
                 dinamico: false
             },
+            // {
+            //     nombre: "Facebook",
+            //     icono:
+            //         "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Ffacebook.png?alt=media&token=f383d17e-32a7-49ef-8ebb-c723d556baa2",
+            //     type: "app",
+            //     notificaciones: 5,
+            //     dinamico: false
+            // },
             {
-                nombre: "Facebook",
-                icono:
-                    "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Ffacebook.png?alt=media&token=f383d17e-32a7-49ef-8ebb-c723d556baa2",
-                type: "app",
-                notificaciones: 5,
-                dinamico: false
-            },
-            {
-                nombre: "Notas",
+                nombre: "Notes",
                 icono:
                     "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fnotas.png?alt=media&token=7a25ae1c-9010-48e4-81e8-e04a904024e9",
                 type: "app",
@@ -95,7 +95,7 @@ $(function () {
                 dinamico: false
             },
             {
-                nombre: "Mensajes",
+                nombre: "Messages",
                 icono:
                     "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fmensajes.png?alt=media&token=e389ae38-bbeb-4ca9-aa46-4be8a5b6ca90",
                 notificaciones: 123,
@@ -103,20 +103,20 @@ $(function () {
                 dinamico: false
             },
             {
-                nombre: "Configuración",
+                nombre: "Settings",
                 icono:
                     "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fconfiguracion.png?alt=media&token=dfe6b4dd-0b50-4a78-8ef1-22728ed9840c",
                 type: "app",
                 notificaciones: 3,
                 dinamico: false
             },
-            {
-                nombre: "BBVA",
-                icono:
-                    "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fbbva.png?alt=media&token=840b9fa7-c765-4147-9138-8234eabfeb9e",
-                type: "app",
-                dinamico: false
-            },
+            // {
+            //     nombre: "BBVA",
+            //     icono:
+            //         "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fbbva.png?alt=media&token=840b9fa7-c765-4147-9138-8234eabfeb9e",
+            //     type: "app",
+            //     dinamico: false
+            // },
             {
                 nombre: "WhatsApp",
                 icono:
@@ -126,35 +126,35 @@ $(function () {
                 dinamico: false
             },
             {
-                nombre: "Calculadora",
+                nombre: "Calculator",
                 icono:
                     "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fcalculadora.png?alt=media&token=0ce89e65-2e11-408c-8467-39637f0f19f8",
                 type: "app",
                 dinamico: false
             },
-            {
-                nombre: "Twitter",
-                icono:
-                    "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Ftwitter.png?alt=media&token=4360a8ea-afce-4f20-9057-bb2d4d5a9e41",
-                type: "app",
-                notificaciones: 2,
-                dinamico: false
-            },
-            {
-                nombre: "Messenger",
-                icono:
-                    "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fmessenger.png?alt=media&token=5de5ef16-9bbf-4d79-b9d2-2e416106b21c",
-                notificaciones: 3,
-                type: "app",
-                dinamico: false
-            },
-            {
-                nombre: "Brújula",
-                icono:
-                    "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fbrujula.png?alt=media&token=b4e4b1bb-1048-427d-836e-7d8b599d71e0",
-                type: "app",
-                dinamico: false
-            },
+            // {
+            //     nombre: "Twitter",
+            //     icono:
+            //         "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Ftwitter.png?alt=media&token=4360a8ea-afce-4f20-9057-bb2d4d5a9e41",
+            //     type: "app",
+            //     notificaciones: 2,
+            //     dinamico: false
+            // },
+            // {
+            //     nombre: "Messenger",
+            //     icono:
+            //         "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fmessenger.png?alt=media&token=5de5ef16-9bbf-4d79-b9d2-2e416106b21c",
+            //     notificaciones: 3,
+            //     type: "app",
+            //     dinamico: false
+            // },
+            // {
+            //     nombre: "Brújula",
+            //     icono:
+            //         "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fbrujula.png?alt=media&token=b4e4b1bb-1048-427d-836e-7d8b599d71e0",
+            //     type: "app",
+            //     dinamico: false
+            // },
             {
                 nombre: "Spotify",
                 icono:
@@ -169,22 +169,22 @@ $(function () {
                 type: "app",
                 dinamico: false
             },
+            // {
+            //     nombre: "Google Home",
+            //     icono:
+            //         "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fhome.png?alt=media&token=b6f455b0-7333-4c4a-b866-56e900beb41e",
+            //     type: "app",
+            //     dinamico: false
+            // },
+            // {
+            //     nombre: "Liverpool",
+            //     icono:
+            //         "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fliverpool.png?alt=media&token=42dfbbba-2149-4fe0-b503-419513082039",
+            //     type: "app",
+            //     dinamico: false
+            // },
             {
-                nombre: "Google Home",
-                icono:
-                    "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fhome.png?alt=media&token=b6f455b0-7333-4c4a-b866-56e900beb41e",
-                type: "app",
-                dinamico: false
-            },
-            {
-                nombre: "Liverpool",
-                icono:
-                    "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fliverpool.png?alt=media&token=42dfbbba-2149-4fe0-b503-419513082039",
-                type: "app",
-                dinamico: false
-            },
-            {
-                nombre: "Musica",
+                nombre: "Apple Music",
                 icono:
                     "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fmusica.png?alt=media&token=4ee18c65-11d5-46bb-8c4f-3536e49e33b0",
                 type: "app",
@@ -198,7 +198,7 @@ $(function () {
                 dinamico: false
             },
             {
-                nombre: "Notas de voz",
+                nombre: "Voice Notes",
                 icono:
                     "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fnotasvoz.png?alt=media&token=dddc5de3-e91f-41da-8670-26ccddf54471",
                 type: "app",
@@ -219,14 +219,14 @@ $(function () {
                 dinamico: false
             },
             {
-                nombre: "Archivos",
+                nombre: "Files",
                 icono:
                     "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Farchivos.png?alt=media&token=b4ce6b1b-9877-41ca-a0f3-b05526591495",
                 type: "app",
                 dinamico: false
             },
             {
-                nombre: "Contactos",
+                nombre: "Contacts",
                 icono:
                     "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fcontactos.png?alt=media&token=fe1b3525-ef43-4a68-91ec-82b3f7b6b979",
                 type: "app",
@@ -241,7 +241,7 @@ $(function () {
                 dinamico: false
             },
             {
-                nombre: "Buscar iPhone",
+                nombre: "Find My",
                 icono:
                     "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Ffindphone.png?alt=media&token=9b0106d2-b151-49af-a3d9-dfbd64bc4421",
                 type: "app",
@@ -256,27 +256,27 @@ $(function () {
         },
         dateTime: {
             meses: [
-                "Enero",
-                "Febrero",
-                "Marzo",
-                "Abril",
-                "Mayo",
-                "Junio",
-                "Julio",
-                "Agosto",
-                "Septiembre",
-                "Octubre",
-                "Noviembre",
-                "Diciembre"
+                "January",
+                "February",
+                "March",
+                "Avril",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September",
+                "October",
+                "November",
+                "December"
             ],
             dias: [
-                "Domingo",
-                "Lunes",
-                "Martes",
-                "Miércoles",
-                "Jueves",
-                "Viernes",
-                "Sábado"
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
             ]
         },
         bateriaBaja: false,
@@ -672,20 +672,20 @@ $(function () {
         //Pintamos todas las apps en el contenedor principal
         pintarApps(globalState.apps, $(".wrapperApps"), $(".wrapperDots"));
         //Si existe el widget del calendario
-        if ($('.wrapperApps .app[data-app="widgetFullCalendario"]').length) {
+        if ($('.wrapperApps .app[data-app="widgetFullCalender"]').length) {
             //Preparamos el widget del calendario
-            $('.wrapperApps .app[data-app="widgetFullCalendario"] .icono').append(
+            $('.wrapperApps .app[data-app="widgetFullCalender"] .icono').append(
                 '<div class="eventos"><p>Sin más eventos para hoy</p></div><div class="calendarioWrapper"></div>'
             );
             //Creamos el calendario del widget
             $(
-                '.wrapperApps .app[data-app="widgetFullCalendario"] .icono .calendarioWrapper'
+                '.wrapperApps .app[data-app="widgetFullCalender"] .icono .calendarioWrapper'
             ).calendario();
         }
         //Si existe el icono dinamico del calendario
-        if ($(".wrapperApps .app.calendarioDinamico").length) {
+        if ($(".wrapperApps .app.calenderDinamico").length) {
             //Icono dinamico del calendario
-            $(".wrapperApps .app.calendarioDinamico .icono").fechaIcono();
+            $(".wrapperApps .app.calenderDinamico .icono").fechaIcono();
         }
         //Si existe el reloj analogico dinamico
         if ($(".wrapperApps .app.relojDinamico").length) {
@@ -737,8 +737,8 @@ $(function () {
             if (!globalState.bateriaBaja) {
                 setTimeout(() => {
                     alertaiOS({
-                        encabezado: "La batería se está agotando",
-                        mensaje: "Batería restante: 10%",
+                        encabezado: "The battery is running low",
+                        mensaje: "Battery level is at 10%",
                         acciones: [
                             {
                                 texto: "Ok"
@@ -749,7 +749,7 @@ $(function () {
                         .removeClass("mid")
                         .addClass("low");
                     globalState.bateriaBaja = true;
-                }, 3000);
+                }, 30000);
             }
         }
     });
