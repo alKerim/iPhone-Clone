@@ -44,7 +44,10 @@ body {
   overflow-y: hidden;
   color: #666;
   margin: 0 auto;
-  transform: translateY(-10vh); /* Move up by 20% of the viewport height */
+  transform: translateY(-5vh);
+  /* transform: scale(0.85); */
+  transform-origin: top center; /* Anchor the scaling to the top */
+
 }
 
 body * {
