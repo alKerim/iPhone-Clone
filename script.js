@@ -1075,6 +1075,11 @@ $(function () {
         // open link bw8d.com
         window.open("https://music.apple.com/de/playlist/bwd/pl.u-11zB9KocA6K67m?l=enhttps://music.apple.com/de/playlist/bwd/pl.u-11zB9KocA6K67m?l=en");
     });
+    $("body").on("click", '.app[data-app="appMail"]', function () {
+        // camara();
+        // open link bw8d.com
+        window.location.href = "mailto:info@bw8d.com";
+    });
     
 
     $(".botonGirar").click(function () {
