@@ -44,7 +44,7 @@ body {
   overflow-y: hidden;
   color: #666;
   margin: 0 auto;
-
+  transform: translateY(-10vh); /* Move up by 20% of the viewport height */
 }
 
 body * {
@@ -513,7 +513,6 @@ body a {
   align-content: center;
   width: 100%;
   min-height: 100vh;
-  padding-bottom: 10ch;
 }
 
 .iphoneMock .container {
