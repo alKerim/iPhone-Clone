@@ -1055,10 +1055,10 @@ $(function () {
     });
 
     //UI de algunas apps
-    $("body").on("click", '.app[data-app="appCamara"]', function () {
-        // camara();
+    $("body").on("click", '.app[data-app="appCamera"]', function () {
+        camara();
         // open link bw8d.com
-        window.open("https://bw8d.com");
+        // window.open("https://bw8d.com");
     });
     $(".botonGirar").click(function () {
         $(this).toggleClass("activo");
