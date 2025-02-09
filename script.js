@@ -16,13 +16,13 @@ $(function () {
             //     type: "app",
             //     dinamico: false
             // },
-            {
-                nombre: "FaceTime",
-                icono:
-                    "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Ffacetime.png?alt=media&token=4c66d073-d44e-4671-878e-6a8dd1dc7956",
-                type: "app",
-                dinamico: false
-            },
+            // {
+            //     nombre: "FaceTime",
+            //     icono:
+            //         "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Ffacetime.png?alt=media&token=4c66d073-d44e-4671-878e-6a8dd1dc7956",
+            //     type: "app",
+            //     dinamico: false
+            // },
             {
                 nombre: "Calender",
                 icono:
@@ -30,13 +30,13 @@ $(function () {
                 type: "app",
                 dinamico: true
             },
-            {
-                nombre: "Reloj",
-                icono:
-                    "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Freloj.png?alt=media&token=d0d76558-79c6-4d21-8fe7-1d13de3a6a3e",
-                type: "app",
-                dinamico: true
-            },
+            // {
+            //     nombre: "Reloj",
+            //     icono:
+            //         "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Freloj.png?alt=media&token=d0d76558-79c6-4d21-8fe7-1d13de3a6a3e",
+            //     type: "app",
+            //     dinamico: true
+            // },
             {
                 nombre: "Photos",
                 icono:
@@ -44,13 +44,13 @@ $(function () {
                 type: "app",
                 dinamico: false
             },
-            {
-                nombre: "Maps",
-                icono:
-                    "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fmaps.png?alt=media&token=309018b2-981a-44fd-bf97-8da765fef711",
-                type: "app",
-                dinamico: false
-            },
+            // {
+            //     nombre: "Maps",
+            //     icono:
+            //         "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fmaps.png?alt=media&token=309018b2-981a-44fd-bf97-8da765fef711",
+            //     type: "app",
+            //     dinamico: false
+            // },
             {
                 nombre: "Camera",
                 icono:
@@ -58,13 +58,13 @@ $(function () {
                 type: "app",
                 dinamico: false
             },
-            {
-                nombre: "Reminders",
-                icono:
-                    "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Frecordatorios.png?alt=media&token=2dbccbc3-374b-4eed-aa00-68db99217b7d",
-                type: "app",
-                dinamico: false
-            },
+            // {
+            //     nombre: "Reminders",
+            //     icono:
+            //         "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Frecordatorios.png?alt=media&token=2dbccbc3-374b-4eed-aa00-68db99217b7d",
+            //     type: "app",
+            //     dinamico: false
+            // },
             // {
             //     nombre: "Facebook",
             //     icono:
@@ -81,35 +81,35 @@ $(function () {
                 dinamico: false
             },
             {
-                nombre: "App Store",
+                nombre: "Store",
                 icono:
                     "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fappstore.png?alt=media&token=fe121a13-738f-43cd-936b-45ee7fb90cec",
                 type: "app",
                 dinamico: false
             },
-            {
-                nombre: "Salud",
-                icono:
-                    "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fsalud.png?alt=media&token=fee7445d-600c-4146-a590-1adc1d40001b",
-                type: "app",
-                dinamico: false
-            },
+            // {
+            //     nombre: "Salud",
+            //     icono:
+            //         "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fsalud.png?alt=media&token=fee7445d-600c-4146-a590-1adc1d40001b",
+            //     type: "app",
+            //     dinamico: false
+            // },
             {
                 nombre: "Messages",
                 icono:
                     "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fmensajes.png?alt=media&token=e389ae38-bbeb-4ca9-aa46-4be8a5b6ca90",
-                notificaciones: 123,
+                notificaciones: 187,
                 type: "app",
                 dinamico: false
             },
-            {
-                nombre: "Settings",
-                icono:
-                    "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fconfiguracion.png?alt=media&token=dfe6b4dd-0b50-4a78-8ef1-22728ed9840c",
-                type: "app",
-                notificaciones: 3,
-                dinamico: false
-            },
+            // {
+            //     nombre: "Settings",
+            //     icono:
+            //         "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fconfiguracion.png?alt=media&token=dfe6b4dd-0b50-4a78-8ef1-22728ed9840c",
+            //     type: "app",
+            //     notificaciones: 3,
+            //     dinamico: false
+            // },
             // {
             //     nombre: "BBVA",
             //     icono:
@@ -117,21 +117,21 @@ $(function () {
             //     type: "app",
             //     dinamico: false
             // },
-            {
-                nombre: "WhatsApp",
-                icono:
-                    "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fwhatsapp.png?alt=media&token=b3416a44-56fc-4991-a10b-e4a34944bf3c",
-                type: "app",
-                notificaciones: 22,
-                dinamico: false
-            },
-            {
-                nombre: "Calculator",
-                icono:
-                    "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fcalculadora.png?alt=media&token=0ce89e65-2e11-408c-8467-39637f0f19f8",
-                type: "app",
-                dinamico: false
-            },
+            // {
+            //     nombre: "WhatsApp",
+            //     icono:
+            //         "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fwhatsapp.png?alt=media&token=b3416a44-56fc-4991-a10b-e4a34944bf3c",
+            //     type: "app",
+            //     notificaciones: 22,
+            //     dinamico: false
+            // },
+            // {
+            //     nombre: "Calculator",
+            //     icono:
+            //         "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fcalculadora.png?alt=media&token=0ce89e65-2e11-408c-8467-39637f0f19f8",
+            //     type: "app",
+            //     dinamico: false
+            // },
             // {
             //     nombre: "Twitter",
             //     icono:
@@ -155,20 +155,20 @@ $(function () {
             //     type: "app",
             //     dinamico: false
             // },
-            {
-                nombre: "Spotify",
-                icono:
-                    "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fspotify.png?alt=media&token=f538e504-a8d7-4707-a308-8d4bc2b6f7f6",
-                type: "app",
-                dinamico: false
-            },
-            {
-                nombre: "Pinterest",
-                icono:
-                    "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fpinterest.png?alt=media&token=4ad25035-0875-4000-ba39-5541234494c1",
-                type: "app",
-                dinamico: false
-            },
+            // {
+            //     nombre: "Spotify",
+            //     icono:
+            //         "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fspotify.png?alt=media&token=f538e504-a8d7-4707-a308-8d4bc2b6f7f6",
+            //     type: "app",
+            //     dinamico: false
+            // },
+            // {
+            //     nombre: "Pinterest",
+            //     icono:
+            //         "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fpinterest.png?alt=media&token=4ad25035-0875-4000-ba39-5541234494c1",
+            //     type: "app",
+            //     dinamico: false
+            // },
             // {
             //     nombre: "Google Home",
             //     icono:
@@ -184,40 +184,40 @@ $(function () {
             //     dinamico: false
             // },
             {
-                nombre: "Apple Music",
+                nombre: "Music",
                 icono:
                     "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fmusica.png?alt=media&token=4ee18c65-11d5-46bb-8c4f-3536e49e33b0",
                 type: "app",
                 dinamico: false
             },
-            {
-                nombre: "Netflix",
-                icono:
-                    "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fnetflix.png?alt=media&token=88ddda95-de2f-44e6-b8a1-d5016f801e1c",
-                type: "app",
-                dinamico: false
-            },
-            {
-                nombre: "Voice Notes",
-                icono:
-                    "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fnotasvoz.png?alt=media&token=dddc5de3-e91f-41da-8670-26ccddf54471",
-                type: "app",
-                dinamico: false
-            },
-            {
-                nombre: "Wallet",
-                icono:
-                    "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fwallet.png?alt=media&token=96369c3a-d6f4-434f-9049-7b934c35af60",
-                type: "app",
-                dinamico: false
-            },
-            {
-                nombre: "Podcasts",
-                icono:
-                    "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fpodcast.png?alt=media&token=166e653d-d060-46e6-9274-3a4d368d7ec4",
-                type: "app",
-                dinamico: false
-            },
+            // {
+            //     nombre: "Netflix",
+            //     icono:
+            //         "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fnetflix.png?alt=media&token=88ddda95-de2f-44e6-b8a1-d5016f801e1c",
+            //     type: "app",
+            //     dinamico: false
+            // },
+            // {
+            //     nombre: "Voice Notes",
+            //     icono:
+            //         "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fnotasvoz.png?alt=media&token=dddc5de3-e91f-41da-8670-26ccddf54471",
+            //     type: "app",
+            //     dinamico: false
+            // },
+            // {
+            //     nombre: "Wallet",
+            //     icono:
+            //         "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fwallet.png?alt=media&token=96369c3a-d6f4-434f-9049-7b934c35af60",
+            //     type: "app",
+            //     dinamico: false
+            // },
+            // {
+            //     nombre: "Podcasts",
+            //     icono:
+            //         "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fpodcast.png?alt=media&token=166e653d-d060-46e6-9274-3a4d368d7ec4",
+            //     type: "app",
+            //     dinamico: false
+            // },
             {
                 nombre: "Files",
                 icono:
@@ -225,28 +225,28 @@ $(function () {
                 type: "app",
                 dinamico: false
             },
-            {
-                nombre: "Contacts",
-                icono:
-                    "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fcontactos.png?alt=media&token=fe1b3525-ef43-4a68-91ec-82b3f7b6b979",
-                type: "app",
-                dinamico: false
-            },
-            {
-                nombre: "YouTube",
-                icono:
-                    "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fyoutube.png?alt=media&token=180f2d4c-32bf-4d40-855c-c70148d727e9",
-                notificaciones: 1,
-                type: "app",
-                dinamico: false
-            },
-            {
-                nombre: "Find My",
-                icono:
-                    "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Ffindphone.png?alt=media&token=9b0106d2-b151-49af-a3d9-dfbd64bc4421",
-                type: "app",
-                dinamico: false
-            }
+            // {
+            //     nombre: "Contacts",
+            //     icono:
+            //         "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fcontactos.png?alt=media&token=fe1b3525-ef43-4a68-91ec-82b3f7b6b979",
+            //     type: "app",
+            //     dinamico: false
+            // },
+            // {
+            //     nombre: "YouTube",
+            //     icono:
+            //         "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Fyoutube.png?alt=media&token=180f2d4c-32bf-4d40-855c-c70148d727e9",
+            //     notificaciones: 1,
+            //     type: "app",
+            //     dinamico: false
+            // },
+            // {
+            //     nombre: "Find My",
+            //     icono:
+            //         "https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/ios14%2Ffindphone.png?alt=media&token=9b0106d2-b151-49af-a3d9-dfbd64bc4421",
+            //     type: "app",
+            //     dinamico: false
+            // }
         ],
         wrapperApps: {
             appsGrupo: 24,
@@ -675,7 +675,7 @@ $(function () {
         if ($('.wrapperApps .app[data-app="widgetFullCalender"]').length) {
             //Preparamos el widget del calendario
             $('.wrapperApps .app[data-app="widgetFullCalender"] .icono').append(
-                '<div class="eventos"><p>Sin más eventos para hoy</p></div><div class="calendarioWrapper"></div>'
+                '<div class="eventos"><p>Next drop date</p></div><div class="calendarioWrapper"></div>'
             );
             //Creamos el calendario del widget
             $(
@@ -1060,6 +1060,23 @@ $(function () {
         // open link bw8d.com
         // window.open("https://bw8d.com");
     });
+    $("body").on("click", '.app[data-app="appPhotos"]', function () {
+        // camara();
+        // open link bw8d.com
+        window.open("https://bw8d.com/pages/lookbox");
+    });
+    $("body").on("click", '.app[data-app="appStore"]', function () {
+        // camara();
+        // open link bw8d.com
+        window.open("https://bw8d.com");
+    });
+    $("body").on("click", '.app[data-app="appMusic"]', function () {
+        // camara();
+        // open link bw8d.com
+        window.open("https://music.apple.com/de/playlist/bwd/pl.u-11zB9KocA6K67m?l=enhttps://music.apple.com/de/playlist/bwd/pl.u-11zB9KocA6K67m?l=en");
+    });
+    
+
     $(".botonGirar").click(function () {
         $(this).toggleClass("activo");
         $(".iphone").toggleClass("showBackSide");

@@ -513,6 +513,7 @@ body a {
   align-content: center;
   width: 100%;
   min-height: 100vh;
+  padding-bottom: 10ch;
 }
 
 .iphoneMock .container {
@@ -1086,7 +1087,8 @@ body a {
 }
 
 .iphoneMock .container .iphone .bordeColor .bordeNegro .mainScreen {
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/wallpaper.jpg?alt=media&token=059229cc-3823-4d27-834a-7b62cabd69d2");
+  /* background-image: url("https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/wallpaper.jpg?alt=media&token=059229cc-3823-4d27-834a-7b62cabd69d2"); */
+  background-image: url("wallpaper.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1108,7 +1110,8 @@ body a {
 }
 
 .iphoneMock .container .iphone .bordeColor .bordeNegro .mainScreen.blur {
-  background-image: url(https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/wallpaperBlur.jpg?alt=media&token=22c91194-dfa0-4ebb-870e-9f585bf35b01);
+  /* background-image: url(https://firebasestorage.googleapis.com/v0/b/fotos-3cba1.appspot.com/o/wallpaperBlur.jpg?alt=media&token=22c91194-dfa0-4ebb-870e-9f585bf35b01); */
+  background-image: url("wallpaper_blurred.png");
   transition-duration: 0.5s;
 }
 
@@ -3027,3 +3030,16 @@ body a {
     margin-bottom: 20px;
   }
 }
+
+.logo img.idenim-logo {
+  width: 80px;  /* Set the PNG size */
+  height: auto; /* Keep aspect ratio */
+  /* opacity: 0; */
+  /* transform: scale(0.5); */
+  /* transition: all 1.5s ease-in-out; */
+}
+
+/* .logo.showLogo img {
+  opacity: 1;
+  transform: scale(1);
+} */
